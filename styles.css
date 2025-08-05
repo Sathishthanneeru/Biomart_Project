@@ -1,4 +1,7 @@
 /* Sticky Transparent Navbar */
+html {
+  scroll-behavior: smooth;
+}
 .navbar {
   position: fixed;
   top: 0;
@@ -47,7 +50,6 @@
   font-size: 1rem;
   position: relative;
   padding: 5px 0;
-  
 }
 
 .nav-menu li a::after {
@@ -110,7 +112,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
@@ -119,23 +122,21 @@ html, body {
 /* Video Banner Section */
 .video-banner {
   position: relative;
-  width: 100vw; 
+  width: 100vw;
   height: 90vh;
   overflow: hidden;
-  
 }
 
 .background-video {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;   
+  width: 100vw;
   height: 100%;
   filter: brightness(0.6);
   object-fit: cover;
   z-index: 1;
 }
-
 
 .video-overlay {
   position: absolute;
@@ -383,7 +384,7 @@ html, body {
 /* Hover Animations */
 .principle-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .principle-card:hover img {
@@ -450,7 +451,7 @@ html, body {
 .center-image {
   flex: 1;
   min-width: 300px;
-  height: 300px; 
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -462,12 +463,13 @@ html, body {
   border-radius: 10px;
   transition: transform 0.8s ease-in-out, box-shadow 0.6s;
   animation: float 3s ease-in-out infinite;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Floating animation */
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px);
   }
   50% {
@@ -653,7 +655,7 @@ html, body {
   width: 100%;
   height: 300px;
   border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
 }
 
@@ -661,17 +663,16 @@ html, body {
   transform: scale(1.02);
 }
 
-.slick-prev, .slick-next {
+.slick-prev,
+.slick-next {
   z-index: 5;
 }
-
-
 
 #challenges-section {
   background: #f7f8f1;
   padding: 60px 20px;
   text-align: center;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 #challenges-section h2 {
@@ -712,7 +713,8 @@ html, body {
   transform: rotateY(180deg);
 }
 
-.card-front, .card-back {
+.card-front,
+.card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -742,31 +744,31 @@ html, body {
 
 /* Background images */
 .pollution {
-  background-image: url('https://cdn.sanity.io/images/cphrnle8/production/adbed67f4f4f280b41e21ebafafa7f800dd3d0d9-1440x811.jpg?rect=264,0,912,811&w=1800&h=1600&q=100');
+  background-image: url("https://cdn.sanity.io/images/cphrnle8/production/adbed67f4f4f280b41e21ebafafa7f800dd3d0d9-1440x811.jpg?rect=264,0,912,811&w=1800&h=1600&q=100");
 }
 
 .health {
-  background-image: url('https://blog.ipleaders.in/wp-content/uploads/2020/07/960x0.jpg');
+  background-image: url("https://blog.ipleaders.in/wp-content/uploads/2020/07/960x0.jpg");
 }
 
 .conservation {
-  background-image: url('https://images.nationalgeographic.org/image/upload/t_edhub_resource_related_resources/v1705093855/EducationHub/photos/Alamy_RG05R1.jpg');
+  background-image: url("https://images.nationalgeographic.org/image/upload/t_edhub_resource_related_resources/v1705093855/EducationHub/photos/Alamy_RG05R1.jpg");
 }
 .economy {
-  background-image: url('https://info.ehl.edu/hubfs/Covid_Economic_Impact.jpg');
+  background-image: url("https://info.ehl.edu/hubfs/Covid_Economic_Impact.jpg");
 }
 
 .awareness {
-  background-image: url('https://blogs.nyit.edu/uploads/career_corner/images/Awareness2.jpg');
+  background-image: url("https://blogs.nyit.edu/uploads/career_corner/images/Awareness2.jpg");
 }
 
 .tech {
-  background-image: url('https://www.the-waves.org/wp-content/uploads/2020/09/technology-transfer.jpg');
+  background-image: url("https://www.the-waves.org/wp-content/uploads/2020/09/technology-transfer.jpg");
 }
 
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background-color: #fff;
 }
 
@@ -794,7 +796,7 @@ body {
   border-radius: 8px;
   overflow: hidden;
   width: 220px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -909,7 +911,7 @@ body {
   background-color: #0c1a1a;
   color: #fff;
   padding: 60px 20px 20px;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
 .footer-container {

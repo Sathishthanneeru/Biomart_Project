@@ -33,7 +33,7 @@ html {
   width: auto;
   padding: 8px;
   border-radius: 12px;        
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* soft shadow for depth */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
@@ -247,7 +247,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: rgb(109, 241, 109);
+  background-color: rgb(73, 236, 73);
   color: white;
   padding: 0.8rem 1.5rem;
   border: none;
